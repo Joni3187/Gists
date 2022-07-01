@@ -1,9 +1,8 @@
-<!-- This Markdown Document is intended to use as a Java Script FAQ Guide  -->
-
 # Java Script MarkDown
-JavaScript: Programming Language - Functional Statements - Automation
--JavaScript - https://www.javascript.com/
--MDN JS - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+JavaScript: Programming Language - Functional Statements - Automation <br>
+-JavaScript - https://www.javascript.com/ <br>
+-MDN JS - https://developer.mozilla.org/en-US/docs/Web/JavaScript <br>
 
 <!-- ALERT -->
 ## Alert
