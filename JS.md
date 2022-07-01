@@ -7,38 +7,39 @@ JavaScript: Programming Language
 
 <!-- ALERT -->
 ## Alert
-```
-    1. alert("Hello Developer!");
+```javascript
+    alert("Hello Developer!");
 ```
 
 <!-- DATA TYPE - NUMBER -->
 ## Data Types - Number
-```
-    1. typeof(24); 
+```javascript
+    typeof(24); 
 ```
 
 <!-- DATA TYPE - STRING -->
 ## Data Types - String
-```
-    1. typeof("Hello!");
+```javascript
+    typeof("Hello!");
 ```
 
 <!-- DATA TYPE - BOOLEAN -->
 ## Data Types - Boolean
-```
-    1. typeof(true); 
+```javascript
+    typeof(true); 
 ```
 
 <!-- PROMPT -->
 ## Prompt
-```
-    1. prompt("What year is it?");
+```javascript
+    prompt("What year is it?");
 ```
 
 <!-- DATA TYPE - VARIABLE -->
 ## Data Types - Variable
-```
-Code Snippets
+```javascript
+    myName="John";
+    console.log("You entered name = " + myName + "!!!");
 ```
 
 <!--   -->
@@ -46,6 +47,9 @@ Code Snippets
 ```
 Code Snippets
 ```
+
+
+
 
 
 <!-- This Markdown Document is intended to use as a Java Script FAQ Guide  -->
