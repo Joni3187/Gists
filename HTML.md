@@ -1,14 +1,14 @@
-# HTML MarkDown
+# HTML MDN - MarkDown
 Hyper Text Markup Language: Elements used to annotate content for display in a Web Browser.
 
 
-## HTML elements reference
+## HTML Elements Reference
 This page lists all the HTML elements, which are created using tags.
 They are grouped by function to help you find what you have in mind easily. An alphabetical list of
 all elements is provided in the sidebar on every element's page as well as this one. 
 *Note: For more information about the basics of HTML elements and attributes, see the section on elements in the Introduction to HTML article.
 
-
+  
 ## Main root
 
 ### HTML
@@ -16,9 +16,8 @@ all elements is provided in the sidebar on every element's page as well as this 
 <html> 
 ```
 The <html> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.
+
   
-
-
 ## Document metadata
 Metadata contains information about the page. This includes information about styles, scripts and data to help software (search engines, browsers, etc.) use and render the page. Metadata for styles and scripts may be defined in the page or link to another file that has the information.
 
@@ -32,21 +31,23 @@ The ```<base>``` HTML element specifies the base URL to use for all relative URL
 ```
 <head>
 ```
-  The ```<head>``` HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+The ```<head>``` HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+  
+### LINK
+```
+<link>
+```
+The ```<link>``` HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
 
-<link> | The <link> HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
-
+  ### META
   <meta>	The <meta> HTML element represents Metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.
 
+  ### STYLE
   <style>	The <style> HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the <style> element.
 
+    ### TITLE
     <title>	The <title> HTML element defines the document's title that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored.
-  
-  
-  
-  
-  
-  
+
   
   
   
