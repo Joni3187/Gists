@@ -143,23 +143,68 @@ The ```<section>``` HTML element represents a generic standalone section of a do
 ## Text content
 Use HTML text content elements to organize blocks or sections of content placed between the opening <body> and closing </body> tags. Important for accessibility and SEO, these elements identify the purpose or structure of that content.
 
+
+### BLOCKQUOTE
 <blockquote>	The <blockquote> HTML element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the cite element.
+  
+
+### DD
 <dd>	The <dd> HTML element provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+  
+
+### DIV
 <div>	The <div> HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g., styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
+  
+
+### DL
 <dl>	The <dl> HTML element represents a description list. The element encloses a list of groups of terms (specified using the dt element) and descriptions (provided by dd elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).
+  
+
+### DT
 <dt>	The <dt> HTML element specifies a term in a description or definition list, and as such must be used inside a dl element. It is usually followed by a dd element; however, multiple <dt> elements in a row indicate several terms that are all defined by the immediate next dd element.
+  
+
+### FIGCAPTION
 <figcaption>	The <figcaption> HTML element represents a caption or legend describing the rest of the contents of its parent figure element.
+  
+
+### FIGURE
 <figure>	The <figure> HTML element represents self-contained content, potentially with an optional caption, which is specified using the figcaption element. The figure, its caption, and its contents are referenced as a single unit.
+  
+
+### HR
 <hr>	The <hr> HTML element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.
+  
+
+### LI
 <li>	The <li> HTML element is used to represent an item in a list. It must be contained in a parent element: an ordered list (ol), an unordered list (ul), or a menu (menu). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.
+  
+
+### MENU
 <menu>	The <menu> HTML element is described in the HTML specification as a semantic alternative to ul, but treated by browsers (and exposed through the accessibility tree) as no different than ul. It represents an unordered list of items (which are represented by li elements).
+  
+
+### OL
 <ol>	The <ol> HTML element represents an ordered list of items — typically rendered as a numbered list.
+  
+
+### P
 <p>	The <p> HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.
+  
+
+### PRE
 <pre>	The <pre> HTML element represents preformatted text which is to be presented exactly as written in the HTML file. The text is typically rendered using a non-proportional, or monospaced, font. Whitespace inside this element is displayed as written.
+
+### UL
 <ul>	The <ul> HTML element represents an unordered list of items, typically rendered as a bulleted list.
+
+
+<!-- INLINE TEXT SEMANTICS -->
+
 
 ## Inline text semantics
 Use the HTML inline text semantic to define the meaning, structure, or style of a word, line, or any arbitrary piece of text.
+
 <a>	The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.
 <abbr>	The <abbr> HTML element represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation. If present, title must contain this full description and nothing else.
 <b>	The <b> HTML element is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance. This was formerly known as the Boldface element, and most browsers still draw the text in boldface. However, you should not use <b> for styling text; instead, you should use the CSS font-weight property to create boldface text, or the strong element to indicate that text is of special importance.
