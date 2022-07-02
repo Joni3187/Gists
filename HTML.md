@@ -25,7 +25,9 @@ The <html> HTML element represents the root (top-level element) of an HTML docum
   
   
 ## Document metadata
-Metadata contains information about the page. This includes information about styles, scripts and data to help software (search engines, browsers, etc.) use and render the page. Metadata for styles and scripts may be defined in the page or link to another file that has the information.
+Metadata contains information about the page. This includes information about styles, 
+scripts and data to help software (search engines, browsers, etc.) use and render the page. 
+Metadata for styles and scripts may be defined in the page or link to another file that has the information.
 
 ### BASE
 ```
