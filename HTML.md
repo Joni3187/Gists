@@ -13,11 +13,9 @@ all elements is provided in the sidebar on every element's page as well as this 
 
 ### HTML
 ```
-<html> | The <html> HTML element represents the root (top-level element) of an HTML 
-document, so it is also referred to as the root element. All other elements must be descendants of this element.
+<html> </html>  
 ```
-
-<html> | The <html> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.
+The <html> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.
   
 
 
