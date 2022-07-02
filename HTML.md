@@ -1,19 +1,25 @@
 # HTML MarkDown
-```
 Hyper Text Markup Language: Elements used to annotate content for display in a Web Browser.
-```
+
 
 ## HTML elements reference
-```
 This page lists all the HTML elements, which are created using tags.
-They are grouped by function to help you find what you have in mind easily. An alphabetical list of all elements is provided in the sidebar on every element's page as well as this one.
+They are grouped by function to help you find what you have in mind easily. An alphabetical list of <br>
+all elements is provided in the sidebar on every element's page as well as this one. <br>
 *Note: For more information about the basics of HTML elements and attributes, see the section on elements in the Introduction to HTML article.
-```
+
 
 ## Main root
+
+### HTML
 ```
+<html> | The <html> HTML element represents the root (top-level element) of an HTML 
+document, so it is also referred to as the root element. All other elements must be descendants of this element.
+```
+
 <html> | The <html> HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.
-```
+  
+
 
 ## Document metadata
 Metadata contains information about the page. This includes information about styles, scripts and data to help software (search engines, browsers, etc.) use and render the page. Metadata for styles and scripts may be defined in the page or link to another file that has the information.
@@ -24,6 +30,15 @@ Metadata contains information about the page. This includes information about st
 <meta>	The <meta> HTML element represents Metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.
 <style>	The <style> HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the <style> element.
 <title>	The <title> HTML element defines the document's title that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored.
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 ## Sectioning root
 <body>	The <body> HTML element represents the content of an HTML document. There can be only one <body> element in a document.
