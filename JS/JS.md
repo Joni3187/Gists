@@ -1,13 +1,19 @@
 # Java Script MarkDown
 
 JavaScript: Programming Language - Functional Statements - Automation <br>
--JavaScript - https://www.javascript.com/ <br>
--MDN JS - https://developer.mozilla.org/en-US/docs/Web/JavaScript <br>
+- JavaScript - https://www.javascript.com/ <br>
+- MDN JS - https://developer.mozilla.org/en-US/docs/Web/JavaScript <br>
 
 <!-- ALERT -->
 ## Alert
 ```javascript
     alert("Hello Developer!");
+```
+
+<!-- PROMPT -->
+## Prompt
+```javascript
+    prompt("What year is it?");
 ```
 
 <!-- DATA TYPE - NUMBER -->
@@ -28,12 +34,6 @@ JavaScript: Programming Language - Functional Statements - Automation <br>
     typeof(true); 
 ```
 
-<!-- PROMPT -->
-## Prompt
-```javascript
-    prompt("What year is it?");
-```
-
 <!-- DATA TYPE - VARIABLE -->
 ## Data Types - Variable
 ```javascript
@@ -41,10 +41,11 @@ JavaScript: Programming Language - Functional Statements - Automation <br>
     console.log("You entered name = " + myName + "!!!");
 ```
 
-<!--   -->
-## 
-```
-Code Snippets
+<!-- String Concatenation -->
+## Data Types - Variable
+```javascript
+
+
 ```
 
 
